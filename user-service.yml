@@ -5,3 +5,5 @@ spring:
     uri: mongodb://localhost:27017/userdb
 server:
   port: 8082
+profile:
+  check: default-from-git
